@@ -61,7 +61,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `username`, `password`, `type`) VALUES
 (1, 'Administrator', 'admin', 'admin123', 1),
-(2, 'John Smith', 'jsmith', 'admin123', 1),
+(2, 'Nash Kim', 'nkim', 'admin123', 1),
 (3, 'Voter 2', 'voter2', 'voter2', 2),
 (4, 'Voter 1', 'voter1', 'voter1', 2);
 
