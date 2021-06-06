@@ -159,9 +159,9 @@ CREATE TABLE `voting_opt` (
 --
 
 INSERT INTO `voting_opt` (`id`, `voting_id`, `category_id`, `image_path`, `opt_txt`) VALUES
-(1, 1, 1, '1600398180_no-image-available.png', 'James Smith'),
-(3, 1, 1, '1600415460_avatar2.png', 'James Wilson'),
-(5, 1, 3, '1600415520_avatar.jpg', 'George Walker'),
+(1, 1, 1, '1600398180_no-image-available.png', 'Kim nash'),
+(3, 1, 1, '1600415460_avatar2.png', 'Nash kim'),
+(5, 1, 3, '1600415520_avatar.jpg', 'lagat kim'),
 (6, 1, 4, '1600400340_no-image-available.png', 'Cadidate 1'),
 (7, 1, 4, '1600400340_no-image-available.png', 'Cadidate 2'),
 (8, 1, 4, '1600400340_no-image-available.png', 'Cadidate 3'),
