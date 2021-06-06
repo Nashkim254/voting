@@ -87,6 +87,7 @@ Class Action {
 		$data = " name = '$name' ";
 		$data .= ", username = '$username' ";
 		$data .= ", password = '$password' ";
+		$data .= ", number = '$number' ";
 		$data .= ", type = '$type' ";
 		if(empty($id)){
 			$save = $this->db->query("INSERT INTO users set ".$data);

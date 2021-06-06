@@ -23,6 +23,10 @@ foreach($user->fetch_array() as $k =>$v){
 			<label for="password">Password</label>
 			<input type="password" name="password" id="password" class="form-control" value="<?php echo isset($meta['password']) ? $meta['id']: '' ?>" required>
 		</div>
+				<div class="form-group">
+			<label for="number">Phone Number</label>
+			<input type="text" name="number" id="number" class="form-control" value="<?php echo isset($meta['number']) ? $meta['number']: '' ?>" required>
+		</div>
 		<div class="form-group">
 			<label for="type">User Type</label>
 			<select name="type" id="type" class="custom-select">
